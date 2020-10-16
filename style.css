@@ -1,29 +1,33 @@
 @font-face {
   font-family: moon;
   src: url(Moon2.0-Regular.otf) format("opentype");
-  
+}
+
+@font-face {
+  font-family: futura;
+  src: url(Futura-Bold.otf) format("opentype");
 }
 
 h1 {
   font-size: 40px;
-  font-family: moon;
+  font-family: futura;
   
 }
 
 h2 {
   text-align: center;
-  font-family: moon;
+  font-family: futura;
   
 }
       
 h3 {
   text-align: center;
-  font-family: moon;
+  font-family: futura;
   
 }
       
 p {
   text-align: center;
-  font-family: moon;
+  font-family: futura;
   
 }
