@@ -1,6 +1,7 @@
 @font-face {
-  src: url(Moon2.0-Regular.otf);
   font-family: moon;
+  src: url(Moon2.0-Regular.otf) format("opentype");
+  
 }
 
 h1 {
