@@ -3,29 +3,26 @@
   font-family: moon;
 }
 
-
-.paragraph{
+h1 {
+  font-size: 40px;
   font-family: moon;
+  
+}
+
+h2 {
   text-align: center;
-/*   <style>
-      h1 {
-        font-size: 40px;
-        
-      }
-      h2 {
-        text-align: center;
-      }
+  font-family: moon;
+  
+}
       
-      h3 {
-        text-align: center;
-      }
+h3 {
+  text-align: center;
+  font-family: moon;
+  
+}
       
-      p {
-        text-align: center;
-      }
-      
-      body {
-         background-color: #8D81D3;
-      }
-    </style> */
+p {
+  text-align: center;
+  font-family: moon;
+  
 }
