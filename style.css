@@ -1,5 +1,11 @@
+@font-face {
+  src: url(Moon2.0-Regular.otf);
+  font-family: moon;
+}
+
+
 .paragraph{
-  font-family: arial;
+  font-family: moon;
   text-align: center;
 /*   <style>
       h1 {
