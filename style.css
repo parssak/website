@@ -3,55 +3,100 @@
   src: url(Futura-Bold.otf) format("opentype");
 }
 
-@font-face {
-  font-family: 'Inter', sans-serif;
-  src: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-}
 
 body {
-   background-color:  #14171f;
+  background-color:  #14171f;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  margin-left: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  /*height: 300px; !* Should be removed. Only for demonstration *!*/
+}
+
+.column a {
+ text-decoration: none;
+  color: #fdc986;
+  font-weight: 600;
+
+
+}
+
+.column.right {
+  padding-left: 16%;
+  text-align: left;
+
+  /*text-anchor: end;*/
+}
+
+.column.right a {
+  display: block;
+  padding: 5px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 3px;
+  color: #ffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h1 {
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+
+  font-weight: 700;
   color: white;
   margin-bottom: 0px;
-  
+  margin-top: 0px;
 }
 
 h2 {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   color: white;
   font-size: 20px;
 }
       
 h3 {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   color: white;
 }
       
 p {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-weight: 100;
   color: white;
 }
+
 
 iframe {
   display: block;
   text-align: center;
   border-style:none;
-  width = 500px;
-  height = 500px;
+  width: 500px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
-a { text-decoration: none; color: #00ccff; }
+
+
+
+
 a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+a:hover { text-decoration: underline;}
+a:hover { text-decoration-thickness: bold;}
