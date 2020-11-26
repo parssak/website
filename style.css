@@ -209,6 +209,7 @@ h2 {
   transform-origin: center;
   transform: translateY(-1%) scale(1.01);
   box-shadow: 6px 6px 10px 0 rgba(14, 14, 14, 0.2);
+  cursor: pointer;
 }
 
 .content .card h2 {
