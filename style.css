@@ -29,6 +29,16 @@ body {
     "about projects"
     "contact projects";
   }
+
+  .title {position: fixed}
+  .about {position: fixed}
+  .contact {position: fixed;  margin-top: 25rem}
+
+  #getintouch {
+    margin-top: 1em;
+    font-size: 1em;
+    transition: all ease-in-out 0.1s;
+  }
 }
 
 /*Mobile*/
@@ -36,19 +46,25 @@ body {
 {
   .grid-container {
     display: grid;
-    width: 100%;
-    grid-template-columns: 1.2fr 0.8fr;
-    grid-template-rows: 0.4fr 1.2fr 1.4fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.6fr 2.2fr;
     gap: 0px 0px;
     grid-template-areas:
-    "title title"
-    "about about"
-    "projects projects";
+    "title"
+    "contact"
+    "projects";
+  }
+
+  .title {position: relative}
+  .about {position: relative; display: none}
+  .contact {position: relative; margin-top: 10px; margin-bottom: 10px}
+  #watermark {
+    display: none;
   }
 }
-.title { grid-area: title; margin-left: 3em; margin-top: 3em; position: fixed;}
-.about { grid-area: about; margin-left: 3em; width: 500px; position: fixed; margin-top: 12rem}
-.contact { grid-area: contact; margin-left: 3em; width: 500px; position: fixed; margin-top: 25rem}
+.title { grid-area: title; margin-left: 3em; margin-top: 3em;}
+.about { grid-area: about; margin-left: 3em; width: 500px; margin-top: 12rem}
+.contact { grid-area: contact; margin-left: 3em; width: 500px;}
 .projects {
   grid-area: projects;
   margin-left: 3em;
@@ -69,7 +85,7 @@ h1 {
 
 h2 {
   font-weight: 200;
-  font-size: 16px;
+  font-size: 1rem;
   color: #dfdfdf;
 }
 
@@ -80,9 +96,10 @@ h3 {
 
 p {
   font-family: 'Inter', serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   font-weight: 400;
+
 }
 
 a {
@@ -191,7 +208,7 @@ a {
 
 .card p {
   font-family: Inter;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0.028em;
   font-weight: 400;
@@ -222,10 +239,7 @@ a:hover {
   word-spacing: 0.07rem;
 }
 
-#getintouch {
-  font-size: 1em;
-  transition: all ease-in-out 0.1s;
-}
+
 #getintouch:hover {
   color: #0e0a37;
   word-spacing: 0.07rem;
