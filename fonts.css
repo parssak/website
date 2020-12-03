@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@font-face {
+    font-family: futura;
+    src: url(Futura-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: pierSansReg;
+    src: url(PierSans-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'DM Serif Display', serif;
+}
+
+@font-face {
+    font-family: 'SF Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular'), url('SFMonoRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular Italic'), url('SFMonoRegularItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light'), url('SFMonoLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light Italic'), url('SFMonoLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium'), url('SFMonoMedium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF Mono Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium Italic'), url('SFMonoMediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold'), url('SFMonoSemibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold Italic'), url('SFMonoSemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('SFMonoBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold Italic'), url('SFMonoBoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy'), url('SFMonoHeavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy Italic'), url('SFMonoHeavyItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Monument Extended Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monument Extended Black'), url('MonumentExtended-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Monument Extended Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monument Extended Light'), url('MonumentExtended-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Monument Extended Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monument Extended Regular'), url('MonumentExtended-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter-Thin.woff2?v=3.15") format("woff2"),
+    url("Inter-Thin.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter-ThinItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-ThinItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Inter-ExtraLight.woff2?v=3.15") format("woff2"),
+    url("Inter-ExtraLight.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Inter-ExtraLightItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-ExtraLightItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Inter-Light.woff2?v=3.15") format("woff2"),
+    url("Inter-Light.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Inter-LightItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-LightItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Regular.woff2?v=3.15") format("woff2"),
+    url("Inter-Regular.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Italic.woff2?v=3.15") format("woff2"),
+    url("Inter-Italic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Inter-Medium.woff2?v=3.15") format("woff2"),
+    url("Inter-Medium.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Inter-MediumItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-MediumItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Inter-SemiBold.woff2?v=3.15") format("woff2"),
+    url("Inter-SemiBold.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Inter-SemiBoldItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-SemiBoldItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-Bold.woff2?v=3.15") format("woff2"),
+    url("Inter-Bold.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-BoldItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-BoldItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Inter-ExtraBold.woff2?v=3.15") format("woff2"),
+    url("Inter-ExtraBold.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Inter-ExtraBoldItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-ExtraBoldItalic.woff?v=3.15") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-Black.woff2?v=3.15") format("woff2"),
+    url("Inter-Black.woff?v=3.15") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-BlackItalic.woff2?v=3.15") format("woff2"),
+    url("Inter-BlackItalic.woff?v=3.15") format("woff");
+}
+
+/* -------------------------------------------------------
+Variable font.
+Usage:
+
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
+*/
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("Inter-roman.var.woff2?v=3.15") format("woff2");
+}
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("Inter-italic.var.woff2?v=3.15") format("woff2");
+}
+
