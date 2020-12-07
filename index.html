@@ -44,25 +44,39 @@
   </div>
   <div class="projects">
     <h3 id="watermark">personal projects</h3>
-    <div id="kaz-card" class="card" onclick="location.href='https://parssa.itch.io/kazakan';">
+<!--    onclick="location.href='https://parssa.itch.io/kazakan';"-->
+    <div id="kaz-card" class="card">
 
       <h2><a href="https://parssa.itch.io/kazakan">Kazakan</a></h2>
       <h3> iOS / Mac / Windows</h3>
+      <a ref="https://apps.apple.com/us/app/kazakan/id1527181335" class="app_store_btn store_btn" sl-processed="1"><img style="margin-top: 20px; width: 100px; height: initial; float: right" srcset="https://static.itch.io/images/store_badges/apple.png 1x, https://static.itch.io/images/store_badges/apple@2x.png 2x" src="https://static.itch.io/images/store_badges/apple.png" alt="Apple Badge"></a>
       <p><b>Kazakan</b> is a game I made where you fight through waves of enemies with a bow. <b>Kazakan</b> was made with C# in Unity, and I did all the artwork in Aseprite.</p>
       <a href="https://parssa.medium.com/lessons-learned-from-building-my-first-mobile-game-c9fbb7a7809e"> Medium article on what I learned &rarr;</a>
       <br>
       <a href="https://parssa.itch.io/kazakan"> Play it in browser &rarr;</a>
       <br>
-      <a href="https://apps.apple.com/us/app/kazakan/id1527181335" class="app_store_btn store_btn" sl-processed="1"><img style="margin-top: 20px; width: 100px" srcset="https://static.itch.io/images/store_badges/apple.png 1x, https://static.itch.io/images/store_badges/apple@2x.png 2x" src="https://static.itch.io/images/store_badges/apple.png" alt="Apple Badge"></a>
+      <img src="./screenshots/kaz_one.png" onclick="imageClicked(this)">
+      <img src="./screenshots/kaz_two.png" onclick="imageClicked(this)">
+      <img src="./screenshots/kaz_three.png" onclick="imageClicked(this)">
     </div>
-    <div id="darco-card" class="card" onclick="location.href='./darco/index.html';">
+<!--    onclick="location.href='./darco/index.html';"-->
+    <div id="darco-card" class="card">
       <h2><a href="./darco/index.html">Darco</a></h2>
       <h3> iPadOS / Browser </h3>
+      <a ref="https://apps.apple.com/us/app/darco/id1541492663" class="app_store_btn store_btn" sl-processed="1"><img style="margin-top: 20px; width: 100px; height: initial; float: right" srcset="https://static.itch.io/images/store_badges/apple.png 1x, https://static.itch.io/images/store_badges/apple@2x.png 2x" src="https://static.itch.io/images/store_badges/apple.png" alt="Apple Badge"></a>
       <p><b>Darco</b> is an app I made for iPadOS, and for the browser. As a student in 2020, I read a lot of PDFs and lecture slides. So, I made <b>Darco</b> to reduce eye strain by easily converting any PDF into dark mode.</p>
       <a href="./darco/index.html"> Check it out in browser &rarr;</a><br>
-      <a href="https://apps.apple.com/us/app/darco/id1541492663" class="app_store_btn store_btn" sl-processed="1"><img style="margin-top: 20px; width: 100px" srcset="https://static.itch.io/images/store_badges/apple.png 1x, https://static.itch.io/images/store_badges/apple@2x.png 2x" src="https://static.itch.io/images/store_badges/apple.png" alt="Apple Badge"></a>
+      <br>
+      <img src="./screenshots/darco_one.png" onclick="imageClicked(this)">
+      <img src="./screenshots/darco_2.png" onclick="imageClicked(this)">
+      <img src="./screenshots/darco_3.png" onclick="imageClicked(this)">
     </div>
   </div>
 </div>
+<div class="preview-section">
+  <img id="preview-pic" src="./screenshots/darco_3.png" style="object-fit: cover;">
+<!--  <button id="hide-preview">X</button>-->
+</div>
+<script src="./index.js"></script>
 </body>
 </html>

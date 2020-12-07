@@ -137,6 +137,11 @@ a {
   transition: all 0.1s ease-in-out;
   transform-origin: bottom;
 
+  /*transform-origin: center;*/
+  /*transform: translateY(-1%) scale(1.01);*/
+  box-shadow: -3px -3px 10px 0 rgba(113, 113, 113, 0.06),
+  6px 6px 10px 0 rgba(14, 14, 14, 0.09);
+
   /*box-shadow: -3px -3px 10px 0 rgba(113, 113, 113, 0.06),*/
   /*6px 6px 10px 0 rgba(14, 14, 14, 0.09);*/
 }
@@ -156,7 +161,20 @@ a {
 
 }
 
+.card img {
+  max-width: 150px;
+  height: 105px;
+  transition: all 0.1s ease-in-out;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  pointer-events: all;
 
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
 
 .contact-card {
   display: block;
@@ -195,13 +213,13 @@ a {
   line-height: 2;
 }
 
-.card:hover {
-  transform-origin: center;
-  transform: translateY(-1%) scale(1.01);
-  box-shadow: -3px -3px 10px 0 rgba(113, 113, 113, 0.06),
-  6px 6px 10px 0 rgba(14, 14, 14, 0.09);
-  /*cursor: pointer;*/
-}
+/*.card:hover {*/
+/*  transform-origin: center;*/
+/*  transform: translateY(-1%) scale(1.01);*/
+/*  box-shadow: -3px -3px 10px 0 rgba(113, 113, 113, 0.06),*/
+/*  6px 6px 10px 0 rgba(14, 14, 14, 0.09);*/
+/*  !*cursor: pointer;*!*/
+/*}*/
 
 .card h2 {
   /*font-family: 'pierSansReg', sans-serif;*/
@@ -230,11 +248,12 @@ a {
   font-family: Inter;
   font-size: 1.1rem;
   line-height: 1.6;
-  letter-spacing: 0.028em;
+  letter-spacing: 0em;
   font-weight: 400;
   width: 80%;
   margin-top: 0;
-
+  font-style: normal;
+  color: #ced0d2;
 }
 
 .contact h1 {
@@ -305,3 +324,41 @@ a:hover {
     opacity: 1;
   }
 }
+
+.preview-section {
+  position: fixed;
+  z-index: 999;
+  max-height: 80%;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  transform: scale(0);
+  transition: all 0.3s ease;
+}
+
+.preview-section img {
+  border-radius: 3vh;
+  border-width: 2px;
+  border-color: #516dea;
+  box-shadow:
+  6px 6px 50px 10px rgba(19, 19, 66, 0.4),
+  0px 0px 500px 100px rgba(28, 24, 57, 0.8);
+}
+
+#hide-preview {
+  /*color: #516dea;*/
+  position: fixed;
+  right:0;
+  top: 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
