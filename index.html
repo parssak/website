@@ -4,7 +4,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
@@ -44,7 +44,7 @@
   </div>
   <div class="projects">
     <h3 id="watermark">personal projects</h3>
-<!--    onclick="location.href='https://parssa.itch.io/kazakan';"-->
+    <!--    onclick="location.href='https://parssa.itch.io/kazakan';"-->
     <div id="kaz-card" class="card">
 
       <h2><a href="https://parssa.itch.io/kazakan">Kazakan</a></h2>
@@ -55,11 +55,12 @@
       <br>
       <a href="https://parssa.itch.io/kazakan"> Play it in browser &rarr;</a>
       <br>
-      <img src="./screenshots/kaz_one.png" onclick="imageClicked(this)">
-      <img src="./screenshots/kaz_two.png" onclick="imageClicked(this)">
-      <img src="./screenshots/kaz_three.png" onclick="imageClicked(this)">
+      <div class="showcase">
+        <img src="./screenshots/kaz_one.png" onclick="imageClicked(this)">
+        <img src="./screenshots/kaz_two.png" onclick="imageClicked(this)">
+        <img src="./screenshots/kaz_three.png" onclick="imageClicked(this)">
+      </div>
     </div>
-<!--    onclick="location.href='./darco/index.html';"-->
     <div id="darco-card" class="card">
       <h2><a href="./darco/index.html">Darco</a></h2>
       <h3> iPadOS / Browser </h3>
@@ -67,15 +68,16 @@
       <p><b>Darco</b> is an app I made for iPadOS, and for the browser. As a student in 2020, I read a lot of PDFs and lecture slides. So, I made <b>Darco</b> to reduce eye strain by easily converting any PDF into dark mode.</p>
       <a href="./darco/index.html"> Check it out in browser &rarr;</a><br>
       <br>
-      <img src="./screenshots/darco_one.png" onclick="imageClicked(this)">
-      <img src="./screenshots/darco_2.png" onclick="imageClicked(this)">
-      <img src="./screenshots/darco_3.png" onclick="imageClicked(this)">
+      <div class="showcase">
+        <img src="./screenshots/darco_one.png" onclick="imageClicked(this)">
+        <img src="./screenshots/darco_2.png" onclick="imageClicked(this)">
+        <img src="./screenshots/darco_3.png" onclick="imageClicked(this)">
+      </div>
     </div>
   </div>
 </div>
 <div class="preview-section">
   <img id="preview-pic" src="./screenshots/darco_3.png" style="object-fit: cover;">
-<!--  <button id="hide-preview">X</button>-->
 </div>
 <script src="./index.js"></script>
 </body>
