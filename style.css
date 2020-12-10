@@ -16,7 +16,7 @@ body {
 }
 
 /*Desktop*/
-@media all and (min-width: 800px){
+@media all and (min-width: 1201px){
   .grid-container {
     display: grid;
     margin-left: 3em;
@@ -33,8 +33,37 @@ body {
 
   .title {position: fixed}
   .about {position: fixed}
-  .contact {position: fixed;  margin-top: 25rem}
+  .contact {position: fixed;  margin-top: 25rem; width: 500px;}
+  .about { grid-area: about; width: 500px; margin-top: 12rem}
 
+  #getintouch {
+    margin-top: 1em;
+    font-size: 1em;
+    transition: all ease-in-out 0.1s;
+  }
+}
+
+/*Desktop*/
+@media all and (max-width: 1200px){
+  .grid-container {
+    display: grid;
+    margin-left: 3em;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 1.2fr 1.4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "title title"
+    "about about"
+    "contact contact"
+    "projects project";
+  }
+
+  .title {position: relative}
+  .about {position: relative; width: 500px; margin-top: 0rem; }
+  .contact {position: relative; margin-top: -5rem; margin-bottom: 0rem; width: 500px}
+  .projects {margin-top: -7rem;}
   #getintouch {
     margin-top: 1em;
     font-size: 1em;
@@ -59,19 +88,18 @@ body {
 
   .title {position: relative}
   .about {position: relative; display: none}
-  .contact {position: relative; margin-top: 10px; margin-bottom: 10px}
+  .contact {position: relative; margin-top: 10px; margin-bottom: 10px; width: 75%}
+  .projects {margin-top: 0rem;}
   #watermark {
     display: none;
   }
 }
 .title { grid-area: title; margin-top: 3em;}
-.about { grid-area: about; width: 500px; margin-top: 12rem}
-.contact { grid-area: contact; width: 500px;}
+.contact { grid-area: contact;}
 .projects {
   grid-area: projects;
   margin-right: 5em;
 }
-
 
 h1 {
   font-family: 'Inter', sans-serif;
