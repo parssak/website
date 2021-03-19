@@ -1,6 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/static/css/main.a6544673.chunk.css",
     "main.js": "/static/js/main.9cad09c9.chunk.js",
     "main.js.map": "/static/js/main.9cad09c9.chunk.js.map",
@@ -20,26 +19,5 @@
     "static/js/2.46d855be.chunk.js",
     "static/css/main.a6544673.chunk.css",
     "static/js/main.9cad09c9.chunk.js"
-=======
-    "main.css": "/static/css/main.9abc07db.chunk.css",
-    "main.js": "/static/js/main.2951c9d6.chunk.js",
-    "main.js.map": "/static/js/main.2951c9d6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d5da4178.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d5da4178.js.map",
-    "static/js/2.d11c56a4.chunk.js": "/static/js/2.d11c56a4.chunk.js",
-    "static/js/2.d11c56a4.chunk.js.map": "/static/js/2.d11c56a4.chunk.js.map",
-    "static/js/3.fab98c13.chunk.js": "/static/js/3.fab98c13.chunk.js",
-    "static/js/3.fab98c13.chunk.js.map": "/static/js/3.fab98c13.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9abc07db.chunk.css.map": "/static/css/main.9abc07db.chunk.css.map",
-    "static/js/2.d11c56a4.chunk.js.LICENSE.txt": "/static/js/2.d11c56a4.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/Inter-SemiBoldItalic.3c66f84b.woff2"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.d5da4178.js",
-    "static/js/2.d11c56a4.chunk.js",
-    "static/css/main.9abc07db.chunk.css",
-    "static/js/main.2951c9d6.chunk.js"
->>>>>>> 3daaf9f8f1be32b7e5bfe91a3ec421b03b2c59ac
   ]
 }
